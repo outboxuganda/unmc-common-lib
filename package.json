@@ -4,22 +4,18 @@
   "description": "Contains the shared code for the UNMC project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  // indicates what files get included in the final version of npm package
   "files": [
     "build/**/*"
   ],
   "scripts": {
     "clean": "del ./build/*",
-    // deletes all build folder content before regenerating JS code and TS declaration file
     "build": "npm run clean && tsc",
-    // `npm version patch` - auto increments version number
     "pub": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "Phillip Kigenyi",
   "license": "Copy right",
   "devDependencies": {
-    // allows the deletion of build folder
     "del-cli": "^3.0.1",
     "typescript": "^3.9.10"
   },
