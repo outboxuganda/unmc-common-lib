@@ -1,6 +1,6 @@
 {
   "name": "@uganda-nurses-and-midwives/common",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Contains the shared code for the UNMC project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "Phillip Kigenyi",
-  "license": "Copy right",
+  "license": "UNLICENSED",
   "devDependencies": {
     "del-cli": "^3.0.1",
     "typescript": "^3.9.10"
@@ -26,5 +26,9 @@
     "express-validator": "^6.4.0",
     "node-nats-streaming": "^0.2.6",
     "jsonwebtoken": "^8.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.outbox.co.ug:uganda-nurses-and-midwives/unmc-common-lib.git"
   }
 }
