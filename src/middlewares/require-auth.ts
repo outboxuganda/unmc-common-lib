@@ -6,9 +6,10 @@ export const requireAuth = (
     res: Response,
     next: NextFunction
 ) => {
-    if (!req.currentUser) {
-        throw new NotAuthorizedError();
-    }
+    // todo add jwt auth
+    // if (!req.currentUser) {
+    //     throw new NotAuthorizedError();
+    // }
 
     next();
 };
