@@ -16,3 +16,4 @@ export * from './events/base-publisher';
 export * from './events/subjects';
 export * from './events/smsnotification-created-event';
 export * from './events/smsnotification-updated-event';
+export * from './events/types/user-service-status';
