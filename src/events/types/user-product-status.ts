@@ -1,5 +1,5 @@
 export enum UserProductStatus {
-  Done = 'done',
+  Completed = 'completed',
   Pending = 'pending',
   Cancelled = 'cancelled',
   Delayed = 'delayed',
