@@ -14,6 +14,5 @@ export * from './middlewares/validate-request';
 export * from './events/base-listener';
 export * from './events/base-publisher';
 export * from './events/subjects';
+export * from './events/nats-wrapper';
 export * from './events/smsnotification-created-event';
-export * from './events/smsnotification-updated-event';
-export * from './events/types/user-product-status';
