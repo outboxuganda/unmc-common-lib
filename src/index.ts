@@ -11,8 +11,9 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
-export * from './events/base-listener';
-export * from './events/base-publisher';
-export * from './events/subjects';
-export * from './events/nats-wrapper';
-export * from './events/smsnotification-created-event';
+export * from './events/core/base-listener';
+export * from './events/core/base-publisher';
+export * from './events/dynamic/subjects';
+export * from './events/core/nats-wrapper';
+export * from './events/dynamic/smsnotification-created-event';
+export * from './events/dynamic/queue-group-names';
