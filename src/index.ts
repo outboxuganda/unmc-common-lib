@@ -17,3 +17,4 @@ export * from './events/dynamic/subjects';
 export * from './events/core/nats-wrapper';
 export * from './events/dynamic/smsnotification-created-event';
 export * from './events/dynamic/queue-group-names';
+export * from './utils/db-utils';
