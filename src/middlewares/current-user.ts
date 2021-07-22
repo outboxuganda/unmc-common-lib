@@ -23,15 +23,15 @@ export const currentUser = (
 ) => {
     let token;
 
-    if (req.headers.authorization && req.headers.authorization.startsWith("JWT")) {
-        token = req.headers.authorization.split(" ")[1];
-    }
-
-    if (!token) {
-        return next(new NotAuthorizedError());
-    }
-
     try {
+        if (req.headers.authorization && req.headers.authorization.startsWith("JWT")) {
+            token = req.headers.authorization.split(" ")[1];
+        }
+
+        if (!token) {
+            return next(new NotAuthorizedError());
+        }
+
         const decoded = jwt.verify(token, process.env.SECRET_KEY!) as UserPayload;
         console.log(decoded)
 
