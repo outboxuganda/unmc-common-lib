@@ -23,12 +23,13 @@ export const currentUser = (
 ) => {
     let token;
 
+    console.log(req.headers.authorization)
     if (req.headers.authorization && req.headers.authorization.startsWith("JWT")) {
         token = req.headers.authorization.split(" ")[1];
     }
 
     if (!token) {
-        return next(new NotAuthorizedError());
+        return next();
     }
 
     try {
@@ -40,7 +41,7 @@ export const currentUser = (
         console.log('expiry date ', expiry_date)
 
         if (new Date() > expiry_date)
-            throw new NotAuthorizedError();
+            return next();
 
         req.currentUser = decoded;
     } catch (e) {
