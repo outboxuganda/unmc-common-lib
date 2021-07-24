@@ -40,12 +40,13 @@ export const currentUser = (
         console.log('expiry date ', expiry_date)
 
         if (new Date() > expiry_date)
-            return next(new NotAuthorizedError());
+            throw new NotAuthorizedError();
 
         req.currentUser = decoded;
     } catch (e) {
         console.log(e)
         return next(new NotAuthorizedError());
     }
+    console.log('added current user');
     next();
 };
