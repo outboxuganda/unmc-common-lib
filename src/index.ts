@@ -10,7 +10,7 @@ export * from './middlewares/current-user';
 export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
-export * from './middlewares/index'
+// export * from './middlewares/index'
 
 export * from './events/core/base-listener';
 export * from './events/core/base-publisher';
@@ -23,8 +23,9 @@ export * from './utils/errorMessages';
 export * from './utils/errors/index'
 export * from './utils/functions'
 
-export {errorHandler} from './middlewares/errorHandler';
-export {responseHandler} from './middlewares/responseHandler';
-export {methodNotAllowedHandler} from './middlewares/methodNotAllowedHandler';
-export {pageNotFoundHandler} from './middlewares/pageNotFoundHandler';
-export {initResLocalsHandler} from './middlewares/initResLocalsHandler';
+// export * from './middlewares/errorHandler';
+export {errorHandler} from './middlewares/errorHandlers';
+export {responseHandler} from './middlewares/responseHandlers';
+export {methodNotAllowedHandler} from './middlewares/methodNotAllowedHandlers';
+export {pageNotFoundHandler} from './middlewares/pageNotFoundHandlers';
+export {initResLocalsHandler} from './middlewares/initResLocalsHandlers';
