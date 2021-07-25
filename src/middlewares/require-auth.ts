@@ -1,5 +1,4 @@
 import {Request, Response, NextFunction} from 'express';
-import {NotAuthorizedError} from '../errors/not-authorized-error';
 import errorMessages from "../utils/errorMessages";
 import Unauthorized from '../utils/errors/Unauthorized';
 

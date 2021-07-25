@@ -1,7 +1,5 @@
 import {Request, Response, NextFunction} from 'express';
 import jwt from 'jsonwebtoken';
-import {NotAuthorizedError} from "../errors/not-authorized-error";
-import errorMessages from "../utils/errorMessages";
 
 interface UserPayload {
     user_id: string;
@@ -38,13 +36,13 @@ export const currentUser = (
         const expiry_date = new Date(decoded.exp * 1000);
         console.log('expiry date ', expiry_date);
 
-        if (new Date() > expiry_date){
+        if (new Date() > expiry_date) {
             console.error("Token expired");
             return next();
         }
         req.currentUser = decoded;
-        next();
     } catch (e) {
         console.error(e)
     }
+    next();
 };

@@ -3,7 +3,7 @@ import utc from 'dayjs/plugin/utc';
 
 dayjs.extend(utc);
 
-const createErrorResponse = (statusCode: number, type: string, param: string, message: string) => ({
+const createErrorResponse = (statusCode: number, type: string, param?: string, message?: string) => ({
   status_code: statusCode,
   type,
   param,

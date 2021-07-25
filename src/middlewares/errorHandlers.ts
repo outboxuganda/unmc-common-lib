@@ -17,7 +17,6 @@ export const errorHandlers = (
   if (err instanceof BaseError) {
     return res
       .status(err.statusCode)
-        // @ts-ignore
         .json(createErrorResponse(err.statusCode, err.type, undefined, err.message));
   }
 
@@ -33,7 +32,6 @@ export const errorHandlers = (
 
   return res
     .status(INTERNAL_SERVER_ERROR)
-      // @ts-ignore
       .json(createErrorResponse(INTERNAL_SERVER_ERROR, errors.server, undefined, err.message));
 };
 
