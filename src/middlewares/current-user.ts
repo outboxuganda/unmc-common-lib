@@ -46,7 +46,7 @@ export const currentUser = (
         req.currentUser = decoded;
     } catch (e) {
         console.log(e)
-        return next(new NotAuthorizedError());
+        new NotAuthorizedError();
     }
     console.log('added current user');
     next();
