@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import {createErrorResponse} from "../utils/functions";
 import errors from "../utils/constants/errors";
 
-export const pageNotFoundHandler = (req: Request, res: Response) =>
+export const pageNotFoundHandlers = (req: Request, res: Response) =>
   res
     .status(NOT_FOUND)
       // @ts-ignore

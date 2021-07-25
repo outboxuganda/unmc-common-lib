@@ -1,5 +1,5 @@
 import {MethodNotAllowed} from "../utils/errors";
 
-export const methodNotAllowedHandler = () => {
+export const methodNotAllowedHandlers = () => {
   throw new MethodNotAllowed('Method not allowed');
 };

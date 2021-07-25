@@ -7,7 +7,7 @@ import errors from "../utils/constants/errors";
 
 type HandledError = BaseError | ExpressValidationError | Error;
 
-export const errorHandler = (
+export const errorHandlers = (
   err: HandledError,
   req: Request,
   res: Response,
@@ -33,6 +33,7 @@ export const errorHandler = (
 
   return res
     .status(INTERNAL_SERVER_ERROR)
-    .json(createErrorResponse(INTERNAL_SERVER_ERROR, errors.server, "", err.message));
+      // @ts-ignore
+      .json(createErrorResponse(INTERNAL_SERVER_ERROR, errors.server, undefined, err.message));
 };
 
