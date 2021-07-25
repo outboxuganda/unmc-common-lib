@@ -24,8 +24,8 @@ export * from './utils/errors/index'
 export * from './utils/functions'
 
 // export * from './middlewares/errorHandler';
-export * from './middlewares/errorHandler';
-export * from './middlewares/responseHandler';
-export * from './middlewares/methodNotAllowedHandler';
-export * from './middlewares/pageNotFoundHandler';
-export * from './middlewares/initResLocalsHandler';
+export * from './middlewares/errorHandlers';
+export * from './middlewares/responseHandlers';
+export * from './middlewares/methodNotAllowedHandlers';
+export * from './middlewares/pageNotFoundHandlers';
+export * from './middlewares/initResLocalsHandlers';
