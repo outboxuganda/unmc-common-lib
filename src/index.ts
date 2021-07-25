@@ -1,4 +1,5 @@
 // Re-export stuff from errors and middlewares
+
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
@@ -20,8 +21,13 @@ export * from './events/dynamic/smsnotification-created-event';
 export * from './events/dynamic/queue-group-names';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
-export * from './utils/errors/index'
 export * from './utils/functions'
+export * from "./utils/errors/BadRequest"
+export * from "./utils/errors/NotFound"
+export * from "./utils/errors/Unauthorized"
+export * from "./utils/errors/Forbidden"
+export * from "./utils/errors/MethodNotAllowed"
+// import MethodNotAllowed from './MethodNotAllowed';
 
 // export * from './middlewares/errorHandler';
 export * from './middlewares/errorHandlers';
