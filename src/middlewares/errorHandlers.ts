@@ -1,7 +1,7 @@
 import { INTERNAL_SERVER_ERROR } from 'http-status';
 import { ValidationError as ExpressValidationError } from 'express-validation';
 import { Request, Response, NextFunction } from 'express';
-import BaseError from "../utils/errors/BaseError";
+import {BaseError} from "../utils/errors/BaseError";
 import {createErrorResponse} from "../utils/functions";
 import errors from "../utils/constants/errors";
 

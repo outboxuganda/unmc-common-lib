@@ -1,4 +1,4 @@
-export default class BaseError extends Error {
+export class BaseError extends Error {
   type: string;
 
   statusCode: number;
