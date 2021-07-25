@@ -7,7 +7,7 @@ export * from './errors/not-found-error';
 export * from './errors/request-validation-error';
 
 export * from './middlewares/current-user';
-export * from './middlewares/error-handler';
+// export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 // export * from './middlewares/index'
@@ -24,8 +24,8 @@ export * from './utils/errors/index'
 export * from './utils/functions'
 
 // export * from './middlewares/errorHandler';
-export {errorHandler} from './middlewares/errorHandlers';
-export {responseHandler} from './middlewares/responseHandlers';
-export {methodNotAllowedHandler} from './middlewares/methodNotAllowedHandlers';
-export {pageNotFoundHandler} from './middlewares/pageNotFoundHandlers';
-export {initResLocalsHandler} from './middlewares/initResLocalsHandlers';
+export * from './middlewares/errorHandler';
+export * from './middlewares/responseHandler';
+export * from './middlewares/methodNotAllowedHandler';
+export * from './middlewares/pageNotFoundHandler';
+export * from './middlewares/initResLocalsHandler';
