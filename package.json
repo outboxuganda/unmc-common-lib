@@ -1,6 +1,6 @@
 {
   "name": "@uganda-nurses-and-midwives/common",
-  "version": "1.0.18",
+  "version": "1.0.21",
   "description": "Contains the shared code for the UNMC project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -25,7 +25,11 @@
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "node-nats-streaming": "^0.2.6",
-    "jsonwebtoken": "^8.5.1"
+    "express-validation": "^3.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "dayjs": "^1.10.4",
+    "http-errors": "~1.6.3",
+    "http-status": "^1.5.0"
   },
   "repository": {
     "type": "git",

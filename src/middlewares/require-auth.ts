@@ -1,6 +1,7 @@
 import {Request, Response, NextFunction} from 'express';
 import {NotAuthorizedError} from '../errors/not-authorized-error';
 import errorMessages from "../utils/errorMessages";
+import Unauthorized from '../utils/errors/Unauthorized';
 
 export const requireAuth = (
     req: Request,
@@ -10,7 +11,7 @@ export const requireAuth = (
     console.log('req.currentUser')
     console.log(req.currentUser)
     if (!req.currentUser) {
-        throw new Error(errorMessages.not_authenticated);
+        throw new Unauthorized(errorMessages.not_authenticated);
     }
 
     next();
