@@ -1,6 +1,6 @@
 import httpStatus, { BAD_REQUEST } from 'http-status';
-import BaseError from './BaseError';
 import errors from "../constants/errors";
+import BaseError from "./BaseError";
 
 export default class BadRequest extends BaseError {
   constructor(message: string) {
