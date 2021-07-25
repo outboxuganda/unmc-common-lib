@@ -22,3 +22,9 @@ export * from './utils/db-utils';
 export * from './utils/errorMessages';
 export * from './utils/errors/index'
 export * from './utils/functions'
+
+export {errorHandler} from './middlewares/errorHandler';
+export {responseHandler} from './middlewares/responseHandler';
+export {methodNotAllowedHandler} from './middlewares/methodNotAllowedHandler';
+export {pageNotFoundHandler} from './middlewares/pageNotFoundHandler';
+export {initResLocalsHandler} from './middlewares/initResLocalsHandler';
