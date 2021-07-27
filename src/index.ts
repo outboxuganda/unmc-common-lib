@@ -8,10 +8,9 @@ export * from './errors/not-found-error';
 export * from './errors/request-validation-error';
 
 export * from './middlewares/current-user';
-// export * from './middlewares/error-handler';
+export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
-// export * from './middlewares/index'
 
 export * from './events/core/base-listener';
 export * from './events/core/base-publisher';
@@ -23,14 +22,4 @@ export * from './utils/db-utils';
 export * from './utils/errorMessages';
 export * from './utils/functions'
 
-export * from "./utils/errors/BadRequest"
-export * from "./utils/errors/NotFound"
 export * from "./utils/errors/Unauthorized"
-export * from "./utils/errors/Forbidden"
-export * from "./utils/errors/MethodNotAllowed"
-
-export * from './middlewares/errorHandlers';
-export * from './middlewares/responseHandlers';
-export * from './middlewares/methodNotAllowedHandlers';
-export * from './middlewares/pageNotFoundHandlers';
-export * from './middlewares/initResLocalsHandlers';
