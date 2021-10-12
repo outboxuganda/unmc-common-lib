@@ -18,6 +18,7 @@ export * from './events/dynamic/subjects';
 export * from './events/core/nats-wrapper';
 export * from './events/dynamic/smsNotificationCreatedEvent';
 export * from './events/dynamic/regStateCreatedEvent';
+export * from './events/dynamic/registrationCreatedEvent';
 export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
