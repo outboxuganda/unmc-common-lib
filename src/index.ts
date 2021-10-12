@@ -16,9 +16,9 @@ export * from './events/core/base-listener';
 export * from './events/core/base-publisher';
 export * from './events/dynamic/subjects';
 export * from './events/core/nats-wrapper';
-export * from './events/dynamic/smsnotification-created-event';
-export * from './events/dynamic/regstate-created-event';
-export * from './events/dynamic/queue-group-names';
+export * from './events/dynamic/smsNotificationCreatedEvent';
+export * from './events/dynamic/regStateCreatedEvent';
+export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
 export * from './utils/functions'

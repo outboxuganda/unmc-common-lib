@@ -7,5 +7,8 @@ export interface RegStateCreatedEvent {
         percentageCompleted: number;
         stateData: {};
         stateNumber: number;
+        registrationId: string;
+        category: 'permanent' | 'temporary_bachelor' | 'temporary_extensor' |
+            'temporary_foreign_trained' | 'register_only' | 'private' | 'renewal';
     };
 }
