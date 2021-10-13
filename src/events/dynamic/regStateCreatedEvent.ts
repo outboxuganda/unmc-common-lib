@@ -4,7 +4,6 @@ export interface RegStateCreatedEvent {
     subject: Subjects.RegStateCreated;
     data: {
         userId: string;
-        percentageCompleted: number;
         stateData: {};
         stateNumber: number;
         registrationId: string;
