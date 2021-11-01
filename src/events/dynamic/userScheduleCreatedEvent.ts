@@ -5,7 +5,7 @@ export interface UserScheduleCreatedEvent {
     subject: Subjects.UserScheduleCreated;
     data: {
         userId: string;
-        serviceType: typeof productNames;
+        serviceType: string;
         userScheduleId: string;
         scheduleId: string;
     };
