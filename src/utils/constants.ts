@@ -12,5 +12,5 @@ export const productNames = {
   PRIVATE_REGISTRAION: "Private registration",
   RENEWAL: "Renewal",
   PAYMENT: "Payment",
-  SCHEDULE: "Schedule",
+  SCHEDULE: "Book an interview",
 }
