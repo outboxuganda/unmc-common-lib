@@ -1,5 +1,4 @@
 import {Subjects} from './subjects';
-import {productNames} from "../../utils/constants";
 
 export interface UserScheduleCreatedEvent {
     subject: Subjects.UserScheduleCreated;
@@ -8,5 +7,6 @@ export interface UserScheduleCreatedEvent {
         serviceType: string;
         userScheduleId: string;
         scheduleId: string;
+        interviewDate: Date;
     };
 }

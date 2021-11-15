@@ -6,4 +6,5 @@ export enum Subjects {
     RegistrationCreated = 'registration:created',
     UserScheduleCreated = 'userschedule:created',
     UserScheduleMissed = 'userschedule:missed',
+    UserProductCreated = 'userproduct:created',
 }
