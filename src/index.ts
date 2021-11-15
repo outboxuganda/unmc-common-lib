@@ -1,5 +1,7 @@
 // Re-export stuff from errors and middlewares
 
+import {regexStrings} from "./utils/constants";
+
 export * from './errors/bad-request-error';
 export * from './errors/custom-error';
 export * from './errors/database-connection-error';
@@ -30,4 +32,5 @@ export * from './utils/errorMessages';
 export * from './utils/functions'
 
 export * from "./utils/errors/Unauthorized"
+export * from './utils/constants'
 export * from './utils/constants'

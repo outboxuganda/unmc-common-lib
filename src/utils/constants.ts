@@ -14,3 +14,8 @@ export const productNames = {
   PAYMENT: "Payment",
   SCHEDULE: "Book an interview",
 }
+
+export const regexStrings = {
+  mastersPHDTutorRegex: "^([a-zA-Z]*BNSc[a-zA-Z]*)|([a-zA-Z]*MNSc[a-zA-Z]*)|([a-zA-Z]*PHD[a-zA-Z]*)|([a-zA-Z]*RNT[a-zA-Z]*)|([a-zA-Z]*BMSc[a-zA-Z]*)|([a-zA-Z]*RMT[a-zA-Z]*)|([a-zA-Z]*Masters[a-zA-Z]*)|([a-zA-Z]*BMSc[a-zA-Z]*)$",
+  ugandanRegex: "^([a-zA-Z]*Ugandan[a-zA-Z]*)|([a-zA-Z]*ugandan[a-zA-Z]*)$"
+}
