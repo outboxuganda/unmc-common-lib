@@ -22,6 +22,7 @@ export * from './events/dynamic/smsNotificationCreatedEvent';
 export * from './events/dynamic/regStateCreatedEvent';
 export * from './events/dynamic/registrationInfoAvailedEvent';
 export * from './events/dynamic/productCompletedEvent';
+export * from './events/dynamic/paymentCompletedEvent';
 export * from './events/dynamic/registrationCreatedEvent';
 export * from './events/dynamic/userScheduleCreatedEvent';
 export * from './events/dynamic/userProductCreatedEvent';
