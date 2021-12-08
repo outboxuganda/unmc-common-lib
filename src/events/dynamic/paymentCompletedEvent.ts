@@ -5,6 +5,7 @@ export interface PaymentCompletedEvent {
     data: {
         userId: string;
         invoiceId: string;
+        paymentId: string;
         content: object;
     };
 }
