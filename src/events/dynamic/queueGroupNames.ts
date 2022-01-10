@@ -5,4 +5,5 @@ export enum QueueGroupNames {
     ScheduleService = 'schedule-service',
     NotificationlogService = 'notificationlog-service',
     FirestoreService = 'firestore-service',
+    AuthService = 'auth-service',
 }
