@@ -12,8 +12,9 @@ export abstract class Listener<T extends Event> {
 
     abstract onMessage(data: T['data'], msg: Message): void;
 
+    protected seconds = 30;
     private client: Stan;
-    protected ackWait = 5 * 1000;
+    protected ackWait = this.seconds * 1000;
 
     constructor(client: Stan) {
         this.client = client;
