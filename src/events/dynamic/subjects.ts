@@ -10,5 +10,10 @@ export enum Subjects {
   UserProductCreated = 'userproduct:created',
   UserInfoAvailed = 'user:availed',
   UserLogInAttempt = 'user:loginattempt',
-  UserRegistered = 'user:registered'
+  UserRegistered = 'user:registered',
+  RegistrationReviewed = 'registration:reviewed',
+  InterviewBooked = 'interview:booked',
+  InterviewCompleted = 'interview:completed',
+  PaymentStarted = 'payment:started',
+  DocumentReviewed = 'document:reviewed',
 }
