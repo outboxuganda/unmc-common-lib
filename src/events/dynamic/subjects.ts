@@ -16,4 +16,5 @@ export enum Subjects {
   InterviewCompleted = 'interview:completed',
   PaymentStarted = 'payment:started',
   DocumentReviewed = 'document:reviewed',
+  UserInfoUpdated = 'user:updated'
 }
