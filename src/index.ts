@@ -28,6 +28,7 @@ export * from './events/dynamic/userScheduleCreatedEvent';
 export * from './events/dynamic/userProductCreatedEvent';
 export * from './events/dynamic/userScheduleMissedEvent';
 export * from './events/dynamic/userLogInAttemptEvent';
+export * from './events/dynamic/interviewActiveEvent';
 export * from './events/dynamic/userRegisteredEvent';
 export * from './events/dynamic/registrationReviewedEvent';
 export * from './events/dynamic/documentReviewedEvent';

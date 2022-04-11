@@ -12,6 +12,7 @@ export const productNames = {
   PRIVATE_REGISTRAION: "Private registration",
   RENEWAL: "Renewal",
   PAYMENT: "Payment",
+  INSPECTION_FORM: "Inspection form",
   SCHEDULE: "Book an interview",
 }
 
