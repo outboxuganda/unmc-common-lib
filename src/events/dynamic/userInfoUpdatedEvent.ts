@@ -1,7 +1,7 @@
 import {Subjects} from './subjects';
 
 export interface UserInfoUpdatedEvent {
-    subject: Subjects.UserInfoAvailed;
+    subject: Subjects.UserInfoUpdated;
     data: {
         id: string
         firstName: string
