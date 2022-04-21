@@ -14,9 +14,9 @@ export interface InterviewCompletedEvent {
     createdAt: string;
     interviewquestions: any;
     interviewresults:any;
-    healthworker:string;
+    healthworker:any;
     feedback:any;
-    interviewer:string;
+    interviewer:any;
     hospitalAttachment:any;
     categoriesresults:any;
   };
