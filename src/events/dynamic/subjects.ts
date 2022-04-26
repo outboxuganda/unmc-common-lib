@@ -21,4 +21,5 @@ export enum Subjects {
     UserInfoUpdated = 'user:updated',
     InterviewActive = 'interview:active',
     InspectionSubmitted = 'inspection:submitted',
+    SchoolsGraded = 'schools:graded',
 }

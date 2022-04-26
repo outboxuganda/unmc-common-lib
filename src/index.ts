@@ -32,6 +32,7 @@ export * from './events/dynamic/interviewActiveEvent';
 export * from './events/dynamic/userRegisteredEvent';
 export * from './events/dynamic/registrationReviewedEvent';
 export * from './events/dynamic/interviewCompletedEvent';
+export * from './events/dynamic/shoolsGradedEvent'
 export * from './events/dynamic/userInfoUpdatedEvent';
 export * from './events/dynamic/documentReviewedEvent';
 export * from './events/dynamic/queueGroupNames';
