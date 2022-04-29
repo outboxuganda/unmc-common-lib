@@ -13,7 +13,7 @@
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish && git push"
   },
   "keywords": [],
-  "author": "Phillip Kigenyi",
+  "author": "Phillip Kigenyi Raymond",
   "license": "UNLICENSED",
   "devDependencies": {
     "del-cli": "^3.0.1",
