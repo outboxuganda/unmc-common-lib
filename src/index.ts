@@ -31,6 +31,7 @@ export * from './events/dynamic/userLogInAttemptEvent';
 export * from './events/dynamic/interviewActiveEvent';
 export * from './events/dynamic/userRegisteredEvent';
 export * from './events/dynamic/registrationReviewedEvent';
+export * from './events/dynamic/inspectionSubmittedEvent';
 export * from './events/dynamic/interviewCompletedEvent';
 export * from './events/dynamic/shoolsGradedEvent'
 export * from './events/dynamic/userInfoUpdatedEvent';
@@ -41,5 +42,4 @@ export * from './utils/errorMessages';
 export * from './utils/functions'
 
 export * from "./utils/errors/Unauthorized"
-export * from './utils/constants'
 export * from './utils/constants'
