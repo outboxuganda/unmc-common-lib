@@ -12,9 +12,9 @@ export const productNames = {
   PRIVATE_REGISTRAION: "Private registration",
   RENEWAL: "Renewal",
   PAYMENT: "Payment",
-  INTERVIEW: "Interview",
+  INTERVIEW: "Assessment",
   INSPECTION_FORM: "Inspection form",
-  SCHEDULE: "Book an interview",
+  SCHEDULE: "Book an assessment",
 }
 
 export const regexStrings = {
