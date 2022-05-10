@@ -22,4 +22,5 @@ export enum Subjects {
     InterviewActive = 'interview:active',
     InspectionSubmitted = 'inspection:submitted',
     SchoolsGraded = 'schools:graded',
+    CronJobCreated = 'cronjob:created',
 }

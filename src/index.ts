@@ -36,6 +36,7 @@ export * from './events/dynamic/interviewCompletedEvent';
 export * from './events/dynamic/shoolsGradedEvent'
 export * from './events/dynamic/userInfoUpdatedEvent';
 export * from './events/dynamic/documentReviewedEvent';
+export * from './events/dynamic/cronJobCreatedEvent';
 export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
