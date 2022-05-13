@@ -4,5 +4,6 @@ export interface UserScheduleReminderEvent {
   subject: Subjects.UserScheduleReminder;
   data: {
     userId: string;
+    interviewDate: Date;
   };
 }
