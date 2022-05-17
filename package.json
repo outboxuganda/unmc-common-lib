@@ -1,6 +1,6 @@
 {
   "name": "@uganda-nurses-and-midwives/common",
-  "version": "1.0.77",
+  "version": "1.0.78",
   "description": "Contains the shared code for the UNMC project",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
