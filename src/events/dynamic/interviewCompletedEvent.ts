@@ -18,6 +18,5 @@ export interface InterviewCompletedEvent {
     feedback:any;
     interviewer:any;
     hospitalAttachment:any;
-    categoriesresults:any;
   };
 }
