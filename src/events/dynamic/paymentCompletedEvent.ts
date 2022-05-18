@@ -8,5 +8,6 @@ export interface PaymentCompletedEvent {
         paymentId: string;
         content: object;
         payment: object;
+        paymentStatus: object;
     };
 }
