@@ -24,4 +24,5 @@ export enum Subjects {
     SchoolsGraded = 'schools:graded',
     CronJobCreated = 'cronjob:created',
     UserScheduleReminder = 'userschedule:reminder',
+    InterviewStarted = 'interview:started',
 }
