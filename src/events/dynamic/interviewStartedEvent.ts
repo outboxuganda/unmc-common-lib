@@ -4,5 +4,6 @@ export interface InterviewStartedEvent {
     subject: Subjects.InterviewStarted;
     data: {
         interview: object;
+        attemptsLeft: number;
     };
 }
