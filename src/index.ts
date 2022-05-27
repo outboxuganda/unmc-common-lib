@@ -39,6 +39,7 @@ export * from './events/dynamic/documentReviewedEvent';
 export * from './events/dynamic/cronJobCreatedEvent';
 export * from './events/dynamic/userScheduleReminderEvent';
 export * from './events/dynamic/interviewStartedEvent';
+export * from './events/dynamic/rescheduleTimedoutEvent';
 export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
