@@ -25,5 +25,5 @@ export enum Subjects {
     CronJobCreated = 'cronjob:created',
     UserScheduleReminder = 'userschedule:reminder',
     InterviewStarted = 'interview:started',
-    InterviewRescheduleTimeout = 'reschedule:timedout',
+    InterviewRescheduleTimedout = 'reschedule:timedout',
 }

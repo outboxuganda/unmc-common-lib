@@ -1,7 +1,7 @@
 import {Subjects} from './subjects';
 
 export interface RescheduleTimedoutEvent {
-    subject: Subjects.InterviewRescheduleTimeout;
+    subject: Subjects.InterviewRescheduleTimedout;
     data: {
         interview: object;
     };
