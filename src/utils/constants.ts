@@ -13,7 +13,7 @@ export const productNames = {
   RENEWAL: "Renewal",
   PAYMENT: "Payment",
   INTERVIEW: "Assessment",
-  INSPECTION_FORM: "Inspection form",
+  INSPECTION_FORM: "Inspection report",
   SCHEDULE: "Book an assessment",
 }
 
