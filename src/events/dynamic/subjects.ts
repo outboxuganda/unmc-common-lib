@@ -26,4 +26,5 @@ export enum Subjects {
     UserScheduleReminder = 'userschedule:reminder',
     InterviewStarted = 'interview:started',
     InterviewRescheduleTimedout = 'reschedule:timedout',
+    RegistrationNotReviewed = 'registration:notreviewed',
 }
