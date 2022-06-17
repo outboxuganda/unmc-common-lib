@@ -41,6 +41,8 @@ export * from './events/dynamic/userScheduleReminderEvent';
 export * from './events/dynamic/registrationNotReviewedEvent';
 export * from './events/dynamic/interviewStartedEvent';
 export * from './events/dynamic/rescheduleTimedoutEvent';
+export * from './events/dynamic/LicenseExpiredEvent';
+export * from './events/dynamic/LicenseAboutToExpireEvent';
 export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
