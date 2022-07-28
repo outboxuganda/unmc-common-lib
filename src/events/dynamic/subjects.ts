@@ -14,6 +14,7 @@ export enum Subjects {
     UserLogInAttempt = 'user:loginattempt',
     UserRegistered = 'user:registered',
     RegistrationReviewed = 'registration:reviewed',
+    InspectionFormReviewed = 'inspectionform:reviewed',
     InterviewBooked = 'interview:booked',
     InterviewCompleted = 'interview:completed',
     PaymentStarted = 'payment:started',
