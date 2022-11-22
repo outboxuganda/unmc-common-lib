@@ -29,5 +29,6 @@ export enum Subjects {
     InterviewRescheduleTimedout = 'reschedule:timedout',
     RegistrationNotReviewed = 'registration:notreviewed',
     LicenseAboutToExpireAvailed = 'license_about_to_expire:availed',
-    LicenseExpired = 'license:expired'
+    LicenseExpired = 'license:expired',
+    UserResetPassword = 'user:resetpassword'
 }
