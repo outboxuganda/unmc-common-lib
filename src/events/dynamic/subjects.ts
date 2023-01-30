@@ -30,5 +30,6 @@ export enum Subjects {
     RegistrationNotReviewed = 'registration:notreviewed',
     LicenseAboutToExpireAvailed = 'license_about_to_expire:availed',
     LicenseExpired = 'license:expired',
-    UserResetPassword = 'user:resetpassword'
+    UserResetPassword = 'user:resetpassword',
+    TemporaryLicenseReportGenerated = "temporary_license_report:generated"
 }
