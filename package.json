@@ -1,5 +1,5 @@
 {
-  "name": "@uganda-nurses-and-midwives/common",
+  "name": "@outboxuganda/unmc-common-lib",
   "version": "1.0.95",
   "description": "Contains the shared code for the UNMC project",
   "main": "./build/index.js",
@@ -31,8 +31,11 @@
     "http-errors": "~1.6.3",
     "http-status": "^1.5.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.outbox.co.ug:uganda-nurses-and-midwives/unmc-common-lib.git"
+    "url": "git@github.com:outboxuganda/unmc-common-lib.git"
   }
 }
