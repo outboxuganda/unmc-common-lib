@@ -23,10 +23,10 @@ export abstract class Listener<T extends Event> {
     subscriptionOptions() {
         return this.client
             .subscriptionOptions()
-            // .setDeliverAllAvailable()
-            // .setManualAckMode(true)
+            .setDeliverAllAvailable()
+            .setManualAckMode(true)
             .setAckWait(this.ackWait)
-            // .setDurableName(this.queueGroupName);
+            .setDurableName(this.queueGroupName);
     }
 
     listen() {
