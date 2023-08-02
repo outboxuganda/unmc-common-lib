@@ -1,4 +1,5 @@
 import {UserInfoUpdatedEvent} from "./userInfoUpdatedEvent";
+import {RegistrationsApprovedEvent} from "./registrationsApprovedEvent";
 
 export enum Subjects {
     SmsNotificationCreated = 'smsnotification:created',
@@ -31,5 +32,6 @@ export enum Subjects {
     LicenseAboutToExpireAvailed = 'license_about_to_expire:availed',
     LicenseExpired = 'license:expired',
     UserResetPassword = 'user:resetpassword',
-    TemporaryLicenseReportGenerated = "temporary_license_report:generated"
+    TemporaryLicenseReportGenerated = 'temporary_license_report:generated',
+    RegistrationsApproved = 'registrations:approved'
 }

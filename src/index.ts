@@ -46,6 +46,7 @@ export * from './events/dynamic/LicenseAboutToExpireEvent';
 export * from './events/dynamic/inspectionFormReviewedEvent';
 export * from './events/dynamic/userResetPasswordEvent';
 export * from './events/dynamic/temporaryLicenseReportGeneratedEvent';
+export * from './events/dynamic/registrationsApprovedEvent';
 export * from './events/dynamic/queueGroupNames';
 export * from './utils/db-utils';
 export * from './utils/errorMessages';
