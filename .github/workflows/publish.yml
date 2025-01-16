@@ -1,41 +1,41 @@
-TODO: MAKE THIS FUNCTIONAL ERROR
- EPUBLISHCONFLICT
- npm ERR! publish fail Cannot publish over existing version.
- npm ERR! publish fail Update the 'version' field in package.json and try again.
- npm ERR! publish fail
-npm ERR! publish fail To automatically increment version numbers, see:
- npm ERR! publish fail     npm help version
-name: publish Node.js Package
+# TODO: MAKE THIS FUNCTIONAL ERROR
+#  EPUBLISHCONFLICT
+#  npm ERR! publish fail Cannot publish over existing version.
+#  npm ERR! publish fail Update the 'version' field in package.json and try again.
+#  npm ERR! publish fail
+# npm ERR! publish fail To automatically increment version numbers, see:
+#  npm ERR! publish fail     npm help version
+# name: publish Node.js Package
 
-on:
- push:
-   branches:
-     - master
+# on:
+#  push:
+#    branches:
+#      - master
 
-jobs:
- build:
-   runs-on: ubuntu-latest
-   steps:
-     - uses: actions/checkout@v2
-     - uses: actions/setup-node@v1
-       with:
-         node-version: 12
-     - run: npm install
+# jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: actions/setup-node@v1
+#        with:
+#          node-version: 12
+#      - run: npm install
 
- publish-gpr:
-   needs: build
-   runs-on: ubuntu-latest
-   steps:
-     - uses: actions/checkout@v2
-     - uses: actions/setup-node@v1
-       with:
-         node-version: 12
-         registry-url: https://npm.pkg.github.com/
-         scope: '@outboxuganda'
-     - run: npm install
-     - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
-     - run: npm version --minor
-     - run: git push --tags && git push
-     - run: npm publish
-       env:
-         NODE_AUTH_TOKEN: ${{secrets.ACCESS_TOKEN}}
+#  publish-gpr:
+#    needs: build
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#      - uses: actions/setup-node@v1
+#        with:
+#          node-version: 12
+#          registry-url: https://npm.pkg.github.com/
+#          scope: '@outboxuganda'
+#      - run: npm install
+#      - run: git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com" && git config --global user.name "$GITHUB_ACTOR"
+#      - run: npm version --minor
+#      - run: git push --tags && git push
+#      - run: npm publish
+#        env:
+#          NODE_AUTH_TOKEN: ${{secrets.ACCESS_TOKEN}}
