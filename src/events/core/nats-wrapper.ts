@@ -12,7 +12,10 @@ export class NatsWrapper {
   }
 
   connectNatsListener(clusterId: string, clientId: string, url: string) {
+    console.log('Attempting to connect to NATS...');
     this._client = nats.connect(clusterId, clientId, {url});
+    console.log('NATS connection established.');
+
 
     return new Promise<void>((resolve, reject) => {
       this.client.on('connect', () => {
@@ -22,6 +25,7 @@ export class NatsWrapper {
         resolve();
       });
       this.client.on('error', (err) => {
+        console.error('Error connecting to NATS:', err);
         reject(err);
       });
     });
